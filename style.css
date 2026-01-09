@@ -1,0 +1,250 @@
+:root{
+	--purple: #6366f1;
+}
+.header-sec {
+    padding: 20px 0;
+}
+.menu_list {
+    display: inline-block;
+    padding: 20px;
+    list-style: none;
+}
+.menu_bar {
+    text-align: right;
+}
+.logo-txt {
+    font-weight: 700;
+    background: linear-gradient(to right, #fa8bff, #2bd2ff, #2bff88);
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+}
+.menu_list a {
+    color: #333;
+    font-size: 23px;
+    line-height: 3;
+    font-weight: 600;
+}
+.menu_list a:hover, .hamburger-sec.hidden-laptop-screen a:hover {
+    text-decoration: none;
+    background-image: linear-gradient(to right, blue, orange);
+    background-clip: text;
+    transition: 0.5s ease;
+    color: transparent;
+	cursor:pointer;
+}
+.hamburger-sec.hidden-laptop-screen {
+    display: none;
+}
+.toggle-bar-icon {
+    color: black;
+    font-size: 26px;
+	line-height: 2.9;
+}
+#slidebar {
+    display: none;
+}
+.menu-list.hidden-laptop-screen {
+    padding: 0px 40px;
+    margin-bottom: 10px;
+}
+.primary-menu ul {
+    list-style: none;
+	padding: 0;
+}
+.menu-list.hidden-laptop-screen:hover {
+    background: #fff;
+    border-right: 2px solid #aecee1;
+    transition: 0.2s ease;
+}
+
+/*banner sec*/
+
+.common-spc {
+    padding: 40px 20px;
+    margin-bottom: 10px;
+}
+.intro-title {
+    color: var(--purple);
+    font-weight: 700;
+    padding: 20px 0;
+}
+.intro-contnt {
+    font-size: 18px;
+	padding: 20px 0 20px;
+}
+.prmry-btn:hover {
+    background-color: #fff;
+    color: var(--purple);
+    border-width: 3px;
+    text-decoration: none;
+	transition: 0.3s ease;
+}
+.prmry-btn {
+    border: 1px solid var(--purple);
+    padding: 15px 30px;
+    background-color: var(--purple);
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 500;
+	line-height: 5;
+}
+/*skill sec*/
+
+.title-wrp h2 {
+    font-weight: 700;
+    text-align: center;
+    padding: 0 0 30px;
+    color: var(--purple);
+    font-size: 35px;
+}
+.skill-sec-contnt span {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--purple);
+}
+.skill-sec-contnt p {
+    font-size: 16px;
+}
+/*work with us*/
+
+.work-with-us.common-spc {
+    background-color: lightgrey;
+    text-align: center;
+    line-height: 6;
+}
+
+/*Testimonial section*/
+
+.item.box-wrp {
+    background-color: #6366f1;
+    padding: 20px 40px;
+    border-radius: 25px;
+    color: #fff;
+}
+.item.box-wrp h2 {
+    font-size: 16px;
+}
+.user_info {
+    margin-top: 12px;
+}
+.user_info p {
+    margin: 0;
+}
+.user_profile {
+    color: #cacacabf;
+}
+.box-wrp span {
+    font-size: 32px;
+}
+.owl-dot span {
+    padding: 6px;
+    background-color: #333;
+    border-radius: 35px;
+    margin-right: 5px;
+	display: block !important;
+}
+.owl-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+button.owl-dot.active span {
+    background-color: #333333ad;
+}
+/*project sec*/
+.project-sec img{
+	margin-bottom:15px;
+}
+
+/*about sec*/
+
+.odd-box{
+	border: 2px solid #6366f1;
+    color: #333;
+    box-shadow: 0px 1px 15px -5px #333;
+    border-radius: 20px;
+}
+.abt-cont {
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+/*contact*/
+.contact-box-wrp {
+    border: 1px solid #6366f1;
+    padding: 30px 20px;
+    background: #6366f1;
+    color: #fff;
+    border-radius: 50px 0 50px 0;
+    box-shadow: -1px 4px 10px -1px #333;
+	margin-bottom: 15px
+}
+.contact-box-wrp a {
+    color: #fff;
+}
+.contact-box-wrp:hover {
+    border: 1px solid #6366f1;
+    background-color: #fff;
+    color: #6366f1;
+    transition: 0.5s ease;
+}
+.contact-box-wrp:hover a{
+	color: #6366f1;
+}
+/*footer*/
+.footer-sec {
+    background-color: #6366f1;
+    color: #fff;
+    font-size: 20px;
+    padding:20px;
+}
+/*media query*/
+@media only screen and (max-width: 995px){
+	
+.hamburger-sec.hidden-laptop-screen {
+    display: block;
+	text-align: right;
+}
+.menu_bar{
+	display:none;
+}
+.nav-bar{
+	display: block;
+}
+
+#slidebar {
+        width: 45%;
+        top: 0;
+		text-align: left;
+    }
+#slidebar {
+        left: -2rem;
+        position: fixed;
+        background-color: #aecee1 !important;
+        height: 100%;
+		        z-index: 999;
+    }
+#slidebar a {
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+	line-height: 2;
+}
+#slidebar i {
+    padding: 20px 0;
+    font-size: 30px;
+}
+.px-2{
+	padding-right: 20px;
+}
+}
+@media only screen and (max-width:500px){
+	.menu-list.hidden-laptop-screen{
+		padding-left: 20px;
+	}
+	#slidebar a{
+		font-size: 18px;
+	}
+	    #slidebar {
+        width: 56%;
+		}
+}
