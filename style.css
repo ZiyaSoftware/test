@@ -73,6 +73,9 @@
     font-size: 18px;
 	padding: 20px 0 20px;
 }
+.banner-img{
+	border-radius: 30px;
+}
 .prmry-btn:hover {
     background-color: #fff;
     color: var(--purple);
