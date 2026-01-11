@@ -73,9 +73,6 @@
     font-size: 18px;
 	padding: 20px 0 20px;
 }
-.banner-img{
-	border-radius: 30px !important;
-}
 .prmry-btn:hover {
     background-color: #fff;
     color: var(--purple);
@@ -213,6 +210,10 @@ button.owl-dot.active span {
 .hamburger-sec.hidden-laptop-screen {
     display: block;
 	text-align: right;
+}
+	
+.banner-img{
+	margin-top: 20px;
 }
 .menu_bar{
 	display:none;
