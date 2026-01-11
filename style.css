@@ -155,8 +155,15 @@ button.owl-dot.active span {
     background-color: #333333ad;
 }
 /*project sec*/
-.project-sec img{
-	margin-bottom:15px;
+.project-cont-wrp{
+	padding: 15px 0;
+	text-align: center;
+}
+.project-sec video {
+    border-radius: 20px 20px 0 0;
+}
+.project-box-wrp {
+    margin-bottom: 20px;
 }
 
 /*about sec*/
